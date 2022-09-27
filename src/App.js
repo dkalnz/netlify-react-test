@@ -9,7 +9,7 @@ function App() {
 		fetch(url)
 			.then((res) => res.json())
 			.then((res) => {
-				console.log('We have data!', res.data);
+				console.log('We have data!!', res.data);
 				setGifs(res.data);
 			})
 			.catch(console.error);
